@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class CricketControllerTest < ActionController::TestCase
-  test "should get cricket" do
-    get :cricket
+  test "should get scores" do
+    get :scores
     assert_response :success
   end
 
