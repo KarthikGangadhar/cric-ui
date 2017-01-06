@@ -1,0 +1,10 @@
+<h2 style="color:red;">Match-Detail:</h2> 
+<table style="width:100%;border:1px solid blue; cellpadding:0px;">
+  <% @cricketvar['data']['data'].each do |t| %>  
+  <tr>
+    <th><%= t['unique_id'] %></th>
+    <th><%= t['description'] %></th> 
+    <th><%= t['title'] %></th>
+  </tr>
+  <% end %>
+</table>
